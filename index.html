@@ -66,13 +66,23 @@
 
   <section class="contact" id="contact">
     <h2>Get in Touch</h2>
-    <form action="r.brandon8589@gmail.com" method="post" enctype="text/plain">
-      <label for="name">Name:</label><input type="text" id="name" name="Name" required>
-      <label for="email">Email:</label><input type="email" id="email" name="Email" required>
-      <label for="phone">Phone:</label><input type="tel" id="phone" name="Phone" required>
-      <label for="msg">Details:</label><textarea id="msg" name="Message" rows="4" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
+    <form action="https://formspree.io/f/xblyvppa" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" required>
+
+  <label for="phone">Phone:</label>
+  <input type="tel" name="phone" id="phone" required>
+
+  <label for="message">Delivery Details:</label>
+  <textarea name="message" id="message" rows="5" required></textarea>
+
+  <input type="hidden" name="_redirect" value="https://brandedcourier.com/thank-you.html">
+
+  <button type="submit">Submit</button>
+</form>
   </section>
 
   <footer>&copy; 2025 Branded Courier LLC • 317‑507‑4367 • brandedcourier.com</footer>
