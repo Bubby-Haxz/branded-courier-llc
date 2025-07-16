@@ -1,0 +1,9 @@
+/* Placeholder stylesheet */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header, footer { background: #ffcc00; padding: 1rem; text-align: center; }
+nav a { margin: 0 1rem; color: #b30000; text-decoration: none; font-weight: bold; }
+.hero { background: #ffe066; text-align: center; padding: 3rem 1rem; }
+button { background: #b30000; color: white; padding: 1rem; border: none; cursor: pointer; }
+.container { padding: 2rem; max-width: 800px; margin: auto; }
+form { display: flex; flex-direction: column; gap: 0.75rem; }
+input, textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
